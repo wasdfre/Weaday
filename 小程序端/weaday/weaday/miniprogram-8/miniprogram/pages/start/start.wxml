@@ -1,0 +1,12 @@
+
+<view class="content">
+  <!--pics文件夹下的background.jpg文件-->
+  <image class='background' src="/images/2.jpg" mode="aspectFill"></image>
+  <!--页面其它部分-->
+</view>
+
+<view class='main'>
+  <image src="{{url}}" mode='widthFix' >
+  </image>
+</view>
+<button class="h2" bindtap="goToDemo01"> </button>

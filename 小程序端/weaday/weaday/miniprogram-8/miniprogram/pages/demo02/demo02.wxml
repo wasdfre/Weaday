@@ -1,0 +1,6 @@
+<!--pages/demo02/demo02.wxml-->
+<view>你有什么想对他说的呢？</view>
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+<view >您想要对Ta说的话：{{array[index]}}</view></picker>
+<view><button bindtap="sure">确定</button></view>
+

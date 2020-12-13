@@ -1,0 +1,26 @@
+<!--pages/demo01/demo01.wxml-->
+
+
+
+<view class="h1">你有什么想对他说的呢？</view>
+<view><input class="anniu" bindinput="set" placeholder="这里只能输入英文呦"> 按钮</input></view>
+
+<view><button class="queding" bindtap="sure1">确定</button></view>
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+<view class="h2">您想要对Ta说的话：{{array[index]}}</view></picker>
+<view><button class="queding" bindtap="sure2">确定</button></view>
+
+<view class="content">
+  <!--pics文件夹下的background.jpg文件-->
+  <image class='background' src="/images/13.jpg" mode="aspectFill"></image>
+  <!--页面其它部分-->
+</view> 
+
+<!-- <view class='main'>
+  <image src="" mode='widthFix' >
+  </image>
+</view>  -->
+
+
+
+
