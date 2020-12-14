@@ -7,6 +7,12 @@ Page({
   data: {
 
   },
+  change:function(options){
+console.log(options)
+wx.navigateTo({
+  url: '/pages/demo01/demo01',
+})
+  },
   goToDemo01:function(){
     wx.navigateTo({
       url: '/pages/demo01/demo01',
